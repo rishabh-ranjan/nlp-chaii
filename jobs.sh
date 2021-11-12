@@ -9,7 +9,7 @@ do
 		-P cse \
 		-l select=1:ncpus=1:ngpus=1:centos=skylake \
 		-l walltime=1:00:00 \
-		-V \
+		-v N=$N,i=$i \
 		job.sh
 done
 
