@@ -24,7 +24,7 @@ src/run_qa.py \
 	--learning_rate 3e-5 \
 	--weight_decay 1e-2 \
 	--warmup_ratio 0.2 \
-	--num_train_epochs 2 \
+	--num_train_epochs 1 \
 \
 	--do_eval \
 	--validation_file "$2" \
