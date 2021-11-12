@@ -22,7 +22,7 @@ combinations of data).
 ./kfold_csv.py data/chaii.csv 5
 ```
 
-3. Conver to json:
+3. Convert to json:
 ```
 for i in {0..4}; do ./csv2json.py data/chaii.train.$i.{csv,json}; ./csv2json.py data/chaii.val.$i.{csv,json}; done
 ```
