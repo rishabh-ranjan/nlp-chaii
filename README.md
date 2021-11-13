@@ -1,6 +1,16 @@
-# COL772 Assignment 4: Google Chaii Challenge (Kaggle)
+# COL772 Assignment 4: Google chaii - Hindi and Tamil Question Answering
 
-Scripts have `--help` info.
+This repository contains the scripts used to train our models on
+[HPC](https://supercomputing.iitd.ac.in) for the
+[Google chaii - Hindi and Tamil Question Answering](https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/)
+contest hosted on Kaggle.
+
+Team name: KissingFace😚
+
+Team members: [Rishabh Ranjan](https://www.kaggle.com/ranjanrishabh) and
+[Daman Arora](https://www.kaggle.com/daman1209arora)
+
+Use `--help` flag for further details on the scripts.
 
 ## HPC setup
 
@@ -46,3 +56,7 @@ script and email. Also change resources depending on skylake in `jobs.sh`.
 ```
 ./test.sh
 ```
+
+## Acknowledgements
+
+Scripts in `src/` are from [HuggingFace🤗 transformers](https://github.com/huggingface/transformers/tree/v4.12.3/examples/pytorch/question-answering).

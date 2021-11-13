@@ -1,0 +1,12 @@
+COL772 A4
+
+Team name: KissingFace😚
+
+Team members: Rishabh Ranjan (https://www.kaggle.com/ranjanrishabh) and
+Daman Arora (https://www.kaggle.com/daman1209arora)
+
+External datasets used:
+
+https://www.kaggle.com/msafi04/squad-translated-to-tamil-for-chaii
+https://www.kaggle.com/rhtsingh/mlqa-hindi-processed
+https://www.kaggle.com/kishalmandal/chaii-fit-7-epochs-extra-tamil-data

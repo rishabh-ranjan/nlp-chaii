@@ -1,4 +1,9 @@
 #!/bin/bash
+#PBS -N kaggle -j oe -o logs/kaggle
+#PBS -M $USER@iitd.ac.in -m bea
+#PBS -P cse
+#PBS -l select=1:ncpus=1
+#PBS -l walltime=1:00:00
 
 echo "==============================="
 echo $PBS_JOBID
@@ -12,5 +17,4 @@ export HTTPS_PROXY='http://10.10.78.22:3128'
 export https_proxy='http://10.10.78.22:3128'
 
 ~/proxy.py 2>&1 >/dev/null &
-module load apps/pytorch/1.9.0/gpu/intelpython3.7
-./train.sh data/new.$I.train.json data/new.$I.val.json scratch/smooth.$I
+~/.local/bin/kaggle datasets create -u -r zip -p ./scratch/chaii-models-new
